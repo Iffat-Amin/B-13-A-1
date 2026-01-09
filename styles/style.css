@@ -164,3 +164,80 @@ nav .btn{
     font-weight: 600;
     line-height: 19px;
 }
+
+#notes{
+    width: 100%;
+    max-height: 448px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+
+}
+.notes-content{
+    /* width: 85%;
+    max-width: 1360px; */
+    max-height: 117px;
+    gap: 16px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.notes-content h2{
+
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    color: #001931;
+    
+
+}
+.notes-content p{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.notes-content-img{
+    max-width: 1360px;
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.notes-card{
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgb(225, 224, 224);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.notes-card .img-box{
+    background-color: rgba(249, 85, 85, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.notes-card img{
+    width: 32px;
+    height: 32px;
+}
