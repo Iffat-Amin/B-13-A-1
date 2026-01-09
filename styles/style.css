@@ -14,9 +14,16 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
+    box-shadow: 0px 0px 5px 0px rgb(225, 224, 224);
+    cursor: pointer;
+    
 
 }
+.btn:hover{
+    background-color: #001931;
+}
 
+/* -------main style-------- */
 nav{
     max-width: 1600px;
     max-height: 92px;
@@ -143,6 +150,7 @@ nav .btn{
     justify-content:flex-start;
     align-items: center;
     gap: 16px;
+    cursor: pointer;
 
 
 }
@@ -151,6 +159,10 @@ nav .btn{
     width: 251px;
     height: 52px;
     align-items: center;
+   
+}
+.banner-content .btn:hover{
+    background-color: transparent;
 }
 
 .btn-2{
@@ -163,6 +175,10 @@ nav .btn{
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
+}
+.btn-2:hover{
+    background-color: #30B868;
+
 }
 
 #notes{
@@ -338,6 +354,9 @@ nav .btn{
     align-items: center;
     gap: 10px;
     padding: 12px 16px;
+    box-shadow: 0px 0px 5px 0px rgb(79, 78, 78);
+    cursor: pointer;
+    
 }
 footer{
     height: 348px;
@@ -387,4 +406,5 @@ footer{
     border: none;
     height: 1px;
     background-color: #30B868;
+    
 }
